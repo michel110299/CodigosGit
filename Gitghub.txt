@@ -1,0 +1,48 @@
+-----------------------------------------------------------------------------------------
+
+-----------------------------------PRIMEIRA VEZ!!!---------------------------------------
+
+git init    >> iniciar o git 
+
+git add README.md  >> nome do arquivo ou coloca * ou . para adicionar todos.
+
+git status >>> para ver se deu certo
+
+git commit -m "first commit" 
+
+git branch -M main   >> criar a branch principal 
+
+git remote add origin https://github.com/michel110299/teste.git >> localizar o repositorio remoto  
+
+git push -u origin main  >> subir arquivos selecionados 
+
+-----------------------------------------------------------------------------------------
+-------------------------------------ATUALIZAR-------------------------------------------
+
+git add README.md  >> nome do arquivo ou coloca * ou . para adicionar todos.
+
+git commit -m "first commit" 
+
+git push 
+
+-----------------------------------------------------------------------------------------
+--------------------------------------CLONAR---------------------------------------------
+
+git clone link >> para clonar um repositorio remoto 
+
+git status 
+
+-----------------------------------------------------------------------------------------
+-----------------------------------CRIAR BRANCH------------------------------------------
+
+git checkout -b nomeBranch >> para criar uma BRANCH
+
+git checkout  nomeBranch >> para navegar entre elas 
+
+git checkout -D nomeBranch >> para apagar uma BRANCH
+
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+
+OBS : Sempre que for mecher em qualquer projeto digite: git pull , pois se caso 
+alguém mecheu em algo vai atualizar. 
