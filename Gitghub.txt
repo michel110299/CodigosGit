@@ -37,6 +37,12 @@ git status
 
 git checkout -b nomeBranch >> para criar uma BRANCH
 
+git add . >> para adicionar nessa nova BRANCH
+
+git commit -m "" >> para comitar nessa nova BRANCH
+
+git push --set-upstream origin nomeBranch criada 
+
 git checkout  nomeBranch >> para navegar entre elas 
 
 git checkout -D nomeBranch >> para apagar uma BRANCH
